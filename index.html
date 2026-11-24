@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WaveReel — Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #090d16;
+      --card: #111827;
+      --border: #1f2937;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --accent: #38bdf8;
+    }
+    body {
+      margin: 0;
+      padding: 24px 16px 48px;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.65;
+    }
+    main {
+      max-width: 780px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px 24px;
+    }
+    h1 {
+      margin-top: 0;
+      font-size: 1.75rem;
+      color: #fff;
+    }
+    h2 {
+      margin-top: 1.6rem;
+      font-size: 1.15rem;
+      color: var(--accent);
+    }
+    p, li {
+      font-size: 0.98rem;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 1.25rem;
+    }
+    a {
+      color: var(--accent);
+    }
+    hr {
+      border: 0;
+      border-top: 1px solid var(--border);
+      margin: 2rem 0;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Privacy Policy — WaveReel</h1>
+    <p class="meta">
+      Package ID: <code>com.wavereel.app</code> &bull; Effective Date: November 24, 2026 &bull;
+      Contact: <a href="mailto:wavereelapp@yahoo.com">wavereelapp@yahoo.com</a>
+    </p>
+
+    <h2>1. Overview &amp; On-Device Privacy</h2>
+    <p>
+      WaveReel is a hands-free navigation utility for short-form video feeds
+      (TikTok, Instagram Reels, and YouTube Shorts).
+      All screen inspection, content filtering, and gesture execution occur <strong>100% locally on your device</strong>.
+      WaveReel does not use the microphone, does not record audio or video, does not take screenshots for external upload,
+      and does not collect, sell, or transmit your personal data or screen content to any developer servers.
+    </p>
+
+    <h2>2. Use of Android AccessibilityService API</h2>
+    <p>
+      WaveReel requests the Android <code>AccessibilityService</code> permission solely after showing a prominent
+      in-app disclosure and receiving your explicit consent. The service (<code>WaveReel Hands-Free</code>) is used exclusively to:
+    </p>
+    <ul>
+      <li>Perform user-configured navigation gestures (next/previous swipe, pause/play, native bookmark save) triggered by the Wet-Hands proximity wave, headset media buttons, or optional timer;</li>
+      <li>Detect video completion and skip user-selected feed items (ads, photo posts, live streams, polls, suggested cards) strictly inside TikTok, Instagram Reels, and YouTube Shorts.</li>
+    </ul>
+    <p>
+      WaveReel does not read notifications outside supported apps, does not monitor passwords or sensitive forms,
+      and does not retain any accessibility tree data after processing a frame in memory.
+    </p>
+
+    <h2>3. Sensors, Overlay, and Device Permissions</h2>
+    <ul>
+      <li><strong>Proximity Sensor:</strong> Used locally in memory while a supported feed is open to recognize Wet-Hands air-wave gestures.</li>
+      <li><strong>Display Over Other Apps (Overlay):</strong> Used strictly to show the compact movable WaveReel floating status indicator during active sessions.</li>
+      <li><strong>Headset Media Controls:</strong> Uses a temporary OS MediaSession only when a supported video feed is in the foreground so wired/Bluetooth headset taps trigger navigation instead of background music apps.</li>
+    </ul>
+
+    <h2>4. Network Access, Subscriptions, and Google Play Services</h2>
+    <p>
+      WaveReel includes no third-party advertising SDKs or behavioral analytics trackers.
+      Network access is used solely by official app store system services (such as <strong>Google Play Billing</strong>
+      and <strong>Google Play Services Block Store</strong>) to:
+    </p>
+    <ul>
+      <li>Display localized pricing and process PRO subscriptions/purchases (<code>wavereel_pro_monthly</code>, <code>wavereel_pro_yearly</code>, <code>wavereel_pro_lifetime</code>);</li>
+      <li>Verify purchase status and store an encrypted/signed 14-day trial and entitlement integrity token via Google Play Block Store so entitlements remain intact across reinstalls on the same device.</li>
+    </ul>
+
+    <h2>5. Data Retention &amp; User Control</h2>
+    <p>
+      Your preferences and HUD coordinates are stored locally on your device. You can reset all app preferences at any time
+      via Android System Settings &rarr; Apps &rarr; WaveReel &rarr; Storage &rarr; Clear data, or by uninstalling the app.
+      Active Google Play subscriptions can be managed or canceled anytime in Google Play Store &rarr; Payments &amp; subscriptions.
+    </p>
+
+    <h2>6. Children's Privacy</h2>
+    <p>
+      WaveReel is not directed to children under the age of 13 (or the equivalent minimum age in your jurisdiction)
+      and does not knowingly collect personal information from children.
+    </p>
+
+    <h2>7. Contact</h2>
+    <p>
+      If you have questions about this Privacy Policy or data privacy in WaveReel, please contact:
+      <a href="mailto:wavereelapp@yahoo.com">wavereelapp@yahoo.com</a>.
+    </p>
+
+    <hr />
+
+    <h1>Политика конфиденциальности — WaveReel</h1>
+    <p class="meta">
+      Идентификатор приложения: <code>com.wavereel.app</code> &bull;
+      Поддержка: <a href="mailto:wavereelapp@yahoo.com">wavereelapp@yahoo.com</a>
+    </p>
+    <p>
+      Вся обработка содержимого экрана и выполнение жестов через <code>AccessibilityService</code> в приложении WaveReel
+      выполняются <strong>100% локально на вашем устройстве</strong>: приложение не использует микрофон, не записывает экран,
+      не собирает и не передаёт содержимое экрана или личные данные на внешние серверы разработчика.
+    </p>
+    <p>
+      Разрешение <code>AccessibilityService</code> применяется только после вашего явного согласия в окне уведомления
+      исключительно для выбранных вами жестов (взмах «Мокрые руки», кнопки гарнитуры, опциональный автоскролл и пропуск
+      отмеченных типов карточек) в TikTok, Instagram Reels и YouTube Shorts.
+    </p>
+    <p>
+      Сетевой доступ используется исключительно системными сервисами магазина приложений (Google Play Billing и Google Play Block Store)
+      для обработки покупок и подписки PRO, а также проверки и сохранения целостности 14-дневного пробного периода и статуса PRO.
+      Приложение не содержит сторонних рекламных или аналитических трекеров и не предназначено для детей младше 13 лет.
+    </p>
+  </main>
+</body>
+</html>
